@@ -1,0 +1,189 @@
+@media (max-width: 1540px) {
+  .card-name {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .card-info {
+    color: rgb(86, 84, 84);
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .price {
+    font-size: 17px;
+  }
+  .buy-button {
+    color: white;
+    background-color: rgb(111, 111, 9);
+    padding: 5px 15px;
+    border-radius: 15px;
+  }
+  .popular-dishes {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .title-of-section {
+    font-size: 35px;
+  }
+  .card-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .card-info {
+    color: rgb(86, 84, 84);
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-size: 17px;
+  }
+  .cards {
+    padding: 15px;
+  }
+  .buy-button {
+    color: white;
+    background-color: rgb(111, 111, 9);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cards {
+    width: 25%;
+  }
+}
+
+@media (max-width: 850px) {
+  .nav-bar-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  .nav-bar {
+    display: none;
+    position: absolute;
+    top: 25px;
+    padding: 15px;
+    /* right: 60px; */
+    flex-direction: column;
+    background-color: white;
+    width: 100% !important;
+  }
+  .nav-bar-link {
+    border-bottom: 1px solid grey;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+  }
+  .set {
+    display: block;
+  }
+  .title-of-section {
+    font-size: 25px;
+  }
+  .cards-image {
+    margin-bottom: 5px;
+  }
+  .card-name {
+    font-size: 15px;
+    /* margin-bottom: 5px; */
+    /* margin-top: 2px; */
+    padding-top: 5px;
+    /* padding: 5px 0; */
+  }
+  .card-info {
+    color: rgb(86, 84, 84);
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-size: 14px;
+  }
+  .cards {
+    width: 25%;
+    padding: 10px;
+  }
+  .buy-button {
+    width: 35px;
+    color: white;
+    background-color: rgb(111, 111, 9);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 550px) {
+  .title-of-section {
+    font-size: 20px;
+  }
+  .cards-image {
+    margin-bottom: 2px;
+  }
+  .card-name {
+    font-size: 14px;
+    /* margin-bottom: 5px; */
+    padding-top: 5px;
+    margin: 0 !important;
+    /* padding: 5px 0; */
+  }
+  .card-info {
+    color: rgb(86, 84, 84);
+    font-size: 7px;
+    margin-bottom: 4px;
+  }
+  .price {
+    font-size: 8px;
+  }
+  .cards {
+    width: 25%;
+    padding: 10px;
+  }
+  .buy-button {
+    width: 30px;
+    color: white;
+    background-color: rgb(111, 111, 9);
+    padding: 5px 6px;
+    border-radius: 10px;
+    font-size: 8px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 490px) {
+  .title-of-section {
+    font-size: 29px;
+  }
+  .card-name {
+    font-size: 18px;
+    /* margin-bottom: 5px; */
+    padding-top: 15px;
+    margin: 0 !important;
+    /* padding: 5px 0; */
+  }
+  .card-info {
+    color: rgb(86, 84, 84);
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+  .price {
+    font-size: 15px;
+  }
+  .cards {
+    width: 80%;
+    padding: 10px;
+  }
+  .buy-button {
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: rgb(111, 111, 9);
+    padding: 5px 6px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0;
+  }
+}
